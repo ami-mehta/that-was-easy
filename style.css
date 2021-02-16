@@ -1,0 +1,26 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#easy {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 3.5em;
+  border: 0.25em solid silver;
+  color: white;
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
